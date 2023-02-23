@@ -4,8 +4,6 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <title>Flexbox: Task 4</title>
-​
-​
     <style>
         body {
             background-color: #fff;
@@ -14,15 +12,16 @@
             padding: 1em;
             margin: 0;
         }
-​
         ul {
+          display: flex;
+          flex-wrap: wrap;
           width: 450px;
           list-style:none;
           padding: 0;
           margin: 0;
         }
-​
         li {
+          flex-grow: 2;
           background-color: #4D7298;
           border: 2px solid #77A6B6;
           border-radius: .5em;
@@ -31,13 +30,8 @@
           margin: .5em;
         }
     </style>
-​
-​
-​
 </head>
-​
 <body>
-​
   <ul>
     <li>Turnip</li>
     <li>greens</li>
@@ -50,7 +44,5 @@
     <li>kohlrabi</li>
     <li>amaranth</li>
   </ul>
-​
 </body>
-​
 </html>
